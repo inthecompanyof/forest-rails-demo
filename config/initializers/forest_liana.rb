@@ -1,1 +1,1 @@
-ForestLiana.jwt_signing_key = 'f9e75d95c0772c096fca5943dc466004955b1f780757cd0ddfd0872bc1298a92'
+ForestLiana.jwt_signing_key = ENV['FOREST_KEY']
