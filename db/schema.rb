@@ -11,31 +11,44 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20151012094556) do
+ActiveRecord::Schema.define(version: 20151015103440) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
+  create_table "customers", force: :cascade do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "email"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string   "stripe_id"
+  end
+
+  create_table "customers_items", force: :cascade do |t|
+    t.integer "customer_id"
+    t.integer "item_id"
+  end
 
   create_table "items", force: :cascade do |t|
     t.string   "name"
     t.string   "brand"
     t.string   "color"
-    t.integer  "user_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.integer  "supplier_id"
   end
 
-  add_index "items", ["user_id"], name: "index_items_on_user_id"
+  add_index "items", ["supplier_id"], name: "index_items_on_supplier_id", using: :btree
 
-  create_table "items_users", id: false, force: :cascade do |t|
-    t.integer "item_id"
-    t.integer "user_id"
-  end
-
-  create_table "users", force: :cascade do |t|
+  create_table "suppliers", force: :cascade do |t|
     t.string   "first_name"
     t.string   "last_name"
     t.string   "email"
-    t.boolean  "customer"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "vat"
+    t.string   "phone_number"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
   end
 
 end

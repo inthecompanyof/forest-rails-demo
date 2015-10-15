@@ -46,4 +46,4 @@ group :development, :test do
 end
 
 gem 'rails_12factor', group: :production
-gem 'forest_liana', '~> 1.0.10'
+gem 'forest_liana', '~> 1.1.1'
