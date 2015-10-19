@@ -46,4 +46,6 @@ group :development, :test do
 end
 
 gem 'rails_12factor', group: :production
-gem 'forest_liana', '~> 1.1.1'
+gem 'forest_liana', '~> 1.1.3'
+
+gem "paperclip", "~> 4.3"
