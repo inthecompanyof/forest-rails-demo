@@ -59,7 +59,7 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     erubis (2.7.0)
     execjs (2.6.0)
-    forest_liana (1.1.13)
+    forest_liana (1.1.14)
       arel-helpers
       groupdate
       jsonapi-serializers
