@@ -49,3 +49,4 @@ gem 'rails_12factor', group: :production
 gem 'forest_liana'
 
 gem "paperclip", "~> 4.3"
+gem 'rack-cors'

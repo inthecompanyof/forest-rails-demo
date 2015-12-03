@@ -194,6 +194,7 @@ DEPENDENCIES
   jquery-rails
   paperclip (~> 4.3)
   pg
+  rack-cors
   rails (= 4.2.3)
   rails_12factor
   sass-rails (~> 5.0)
