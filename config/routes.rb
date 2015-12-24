@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   namespace :forest do
     resources :brands
+    post '/actions/send-email' => 'emails#send_email'
   end
 
   mount ForestLiana::Engine => '/forest'
