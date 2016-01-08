@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.3.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
@@ -46,7 +46,7 @@ group :development, :test do
 end
 
 gem 'rails_12factor', group: :production
-gem 'forest_liana', "1.1.23.pre"
+gem 'forest_liana', git: "https://#{ENV['GITHUB_TOKEN']}:x-oauth-basic@github.com/ForestAdmin/forest-rails.git", branch: 'devel'
 
 gem "paperclip", "~> 4.3"
 gem 'rack-cors'

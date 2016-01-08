@@ -1,3 +1,19 @@
+GIT
+  remote: https://a670fc955c68e5a108d7c1192d6fa7f128e31874:x-oauth-basic@github.com/ForestAdmin/forest-rails.git
+  revision: cbfe15eb3c9412568f5f67f93e74f1f656ffda79
+  branch: devel
+  specs:
+    forest_liana (1.1.23)
+      arel-helpers
+      groupdate
+      intercom
+      jsonapi-serializers (= 0.3.0)
+      jwt
+      rack-cors
+      rails (>= 3.0)
+      stripe
+      useragent
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -64,16 +80,6 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     erubis (2.7.0)
     execjs (2.6.0)
-    forest_liana (1.1.23.pre)
-      arel-helpers
-      groupdate
-      intercom
-      jsonapi-serializers (= 0.3.0)
-      jwt
-      rack-cors
-      rails (>= 3.0)
-      stripe
-      useragent
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     groupdate (2.5.0)
@@ -200,7 +206,7 @@ DEPENDENCIES
   aws-sdk (< 2.0)
   byebug
   coffee-rails (~> 4.1.0)
-  forest_liana (= 1.1.23.pre)
+  forest_liana!
   jbuilder (~> 2.0)
   jquery-rails
   paperclip (~> 4.3)
@@ -215,3 +221,6 @@ DEPENDENCIES
   turbolinks
   uglifier (>= 1.3.0)
   web-console (~> 2.0)
+
+BUNDLED WITH
+   1.11.2
