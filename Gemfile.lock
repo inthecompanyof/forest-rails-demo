@@ -1,9 +1,9 @@
 GIT
   remote: https://a670fc955c68e5a108d7c1192d6fa7f128e31874:x-oauth-basic@github.com/ForestAdmin/forest-rails.git
-  revision: cbfe15eb3c9412568f5f67f93e74f1f656ffda79
+  revision: c6be0d9b80bda9d0d24c3bc3fb6c382581c4c8eb
   branch: devel
   specs:
-    forest_liana (1.1.23)
+    forest_liana (1.1.24)
       arel-helpers
       groupdate
       intercom
