@@ -1,4 +1,5 @@
-ForestLiana.jwt_signing_key = ENV['FOREST_KEY']
+ForestLiana.secret_key = ENV['FOREST_KEY']
+ForestLiana.auth_key = '1iO2@%SO8PXrYSpkkL2W'
 ForestLiana.integrations = {
   stripe: {
     api_key: ENV['STRIPE_SECRET_KEY'],
