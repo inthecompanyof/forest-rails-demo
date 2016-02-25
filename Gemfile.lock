@@ -1,10 +1,11 @@
 GIT
   remote: https://a670fc955c68e5a108d7c1192d6fa7f128e31874:x-oauth-basic@github.com/ForestAdmin/forest-rails.git
-  revision: 294e90e3b9cfe7ee6f377e72f350c956efb67a04
+  revision: f933220b2b82caaa8ea729f83bad6d08d8a7db1b
   branch: devel
   specs:
-    forest_liana (1.1.25)
+    forest_liana (1.2.0)
       arel-helpers
+      bcrypt
       groupdate
       intercom
       jsonapi-serializers (= 0.3.0)
@@ -60,6 +61,7 @@ GEM
     aws-sdk-v1 (1.64.0)
       json (~> 1.4)
       nokogiri (>= 1.4.4)
+    bcrypt (3.1.10)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
     builder (3.2.2)
