@@ -51,3 +51,5 @@ gem 'forest_liana', git: "https://#{ENV['GITHUB_TOKEN']}:x-oauth-basic@github.co
 gem "paperclip", "~> 4.3"
 gem 'rack-cors'
 gem 'aws-sdk', '< 2.0'
+gem 'intercom'
+gem 'stripe'
