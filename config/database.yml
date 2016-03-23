@@ -8,7 +8,7 @@ development:
   database: forest-demo
   encoding: unicode
   pool: 5
-  host: 192.168.99.100
-  port: 32772
-  username: forestapi
-  password: secret
+  host: localhost
+  port: 5432
+  username: seyz
+  password: 

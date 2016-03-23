@@ -46,8 +46,10 @@ group :development, :test do
 end
 
 gem 'rails_12factor', group: :production
-gem 'forest_liana', git: "https://#{ENV['GITHUB_TOKEN']}:x-oauth-basic@github.com/ForestAdmin/forest-rails.git", branch: 'devel'
+gem 'forest_liana', path: '~/workspace/internal/forest-rails'
 
 gem "paperclip", "~> 4.3"
 gem 'rack-cors'
 gem 'aws-sdk', '< 2.0'
+gem 'stripe'
+gem 'intercom'
