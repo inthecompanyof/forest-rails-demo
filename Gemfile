@@ -51,3 +51,5 @@ gem 'forest_liana'
 gem "paperclip", "~> 4.3"
 gem 'rack-cors'
 gem 'aws-sdk', '< 2.0'
+gem 'intercom'
+gem 'stripe'
