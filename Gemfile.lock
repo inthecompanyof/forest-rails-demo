@@ -1,6 +1,6 @@
 GIT
   remote: https://a670fc955c68e5a108d7c1192d6fa7f128e31874:x-oauth-basic@github.com/ForestAdmin/forest-rails.git
-  revision: 64246a4be1750466883fb1025faae1472afbfb5e
+  revision: 1add5972397d11185addcc4b6f19025263371f19
   branch: devel
   specs:
     forest_liana (1.2.5)
@@ -191,7 +191,7 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.2)
-    useragent (0.16.5)
+    useragent (0.16.7)
     web-console (2.2.1)
       activemodel (>= 4.0)
       binding_of_caller (>= 0.7.2)
