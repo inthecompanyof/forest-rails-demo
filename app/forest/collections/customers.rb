@@ -1,6 +1,8 @@
-class Forest::Customer < ForestLiana::Collection
-  self.add_actions('customers', [
-    ForestLiana::Model::Action.new({ name: 'Ban customer' }),
-    ForestLiana::Model::Action.new({ name: 'Give voucher' })
-  ])
+class Forest::Customer
+  include ForestLiana::Collection
+
+  collection :customers
+
+  action 'Ban customer'
+  action 'Give voucher'
 end

@@ -1,8 +1,8 @@
 default: &default
   adapter: postgresql
   hostname: 192.168.99.100
-  port: 5432
-  username: seyz
+  port: 5435
+  username: forest
   password: secret
   pool: 5
   timeout: 5000
@@ -13,6 +13,6 @@ development:
   encoding: unicode
   pool: 5
   host: 192.168.99.100
-  port: 5432
-  username: seyz
+  port: 5435
+  username: forest
   password: secret
